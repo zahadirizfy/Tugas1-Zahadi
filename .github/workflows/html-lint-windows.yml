@@ -20,6 +20,9 @@ jobs:
           php-version: '8.2.12'
           tools: composer, cs2pr
 
+      - name: Enable PHP Extensions
+        run: echo "extension=fileinfo" >> C:\tools\php\php.ini
+
       - name: Install Dependencies
         run: composer install --no-progress --no-suggest --prefer-dist
 
