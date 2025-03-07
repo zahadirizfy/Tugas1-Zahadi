@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="Project Rules">
+    <description>Custom coding standard for my project</description>
+
+    <rule ref="PSR12"/>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>storage/*</exclude-pattern>
+
+    <file>.</file>
+</ruleset>
