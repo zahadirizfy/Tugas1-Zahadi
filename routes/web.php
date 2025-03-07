@@ -115,8 +115,5 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard-feedback', [FeedbackController::class, 'index']);
     Route::resource('/dashboard-feedback', FeedbackController::class);
 });
-
-
-
 // //museum-masuk-sekolah
 // Route::resource('/dashboard/daftar-sekolah', SekolahController::class);
